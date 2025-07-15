@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1'
+	xmlns:xlink='http://www.w3.org/1999/xlink'
+	viewBox='0 0 360 300' stroke-width='2' width='660px' height='600px'
+	font-family='"DejaVu Sans", sans-serif'
+	fill='none' stroke='none'>
+
+	<circle cx='120' cy='100' r='100' fill='#ffff80' />
+	<circle cx='240' cy='100' r='100' fill='#00ffff' />
+	<path d='
+		M 180 20
+		a 100 100 0 0 0 0 160
+		a 100 100 0 0 0 0 -160
+		z'
+		fill='#7fff80' />
+
+	<circle cx='120' cy='100' r='100' stroke='#000' />
+	<circle cx='240' cy='100' r='100' stroke='#000' />
+	<circle cx='180' cy='100' r='30' fill='#a5b35a' stroke='#000' />
+	
+	<g text-anchor='middle'
+		stroke='none' fill='#000' font-size='36px' font-weight='bold'>
+
+		<text x='100' y='112'>1</text>
+		<text x='260' y='112'>2</text>
+		<text x='180' y='112'>3</text>
+	</g>
+	
+	<rect x='10' y='230' width='340' height='70'
+		fill='#fff' stroke='#000' />
+	
+	<text text-anchor='start'
+		stroke='none' fill='#000' font-size='12px'>
+
+		<tspan x='15' y='250'>(1) People who know what a Venn diagram is</tspan>
+		<tspan x='15' y='270'>(2) People who know what an Euler diagram is</tspan>
+		<tspan x='15' y='290'>(3) People who know the difference</tspan>
+	</text>
+</svg>

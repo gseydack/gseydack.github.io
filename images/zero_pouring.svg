@@ -48,7 +48,7 @@
 
         @keyframes scrolling {
             from {
-                transform: translate(-250px, 0);
+                transform: translate(-350px, 0);
             }
             to {
                 transform: translate(300px, 0);
@@ -80,7 +80,7 @@
         <text id="n8" x="0" y="0">8</text>
         <text id="n9" x="0" y="0">9</text>
 
-        <text id="banner" x="0" y="0" fill="white">Numbers merging on the number line</text>
+        <text id="banner" x="0" y="0" fill="white">The Number Line: numbers merging into continuity</text>
     </defs>
 
     <rect x="-150" y="-100" width="300" height="200" fill="#29BAF4" />

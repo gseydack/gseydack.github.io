@@ -1,0 +1,136 @@
+<svg width="300" height="200" viewBox="-150 -100 300 200"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden">
+
+    <style>
+        #n0, #n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8, #n9 {
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        fill: black;
+        }
+
+        .numbr {
+        animation-name: pouring;
+        animation-duration: inherit;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
+
+        .numbr.transp {
+        opacity: 0.7;
+        }
+
+        .numbr.slow {
+        animation-duration: 5s;
+        }
+
+        .numbr.fast {
+        animation-duration: 3s;
+        }
+
+        .scroll {
+        animation-name: scrolling;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: reverse;
+        }
+
+        @keyframes pouring {
+            from {
+                transform: translateY(-150px);
+            }
+            to {
+                transform: translateY(200px);
+            }
+        }
+
+        @keyframes scrolling {
+            from {
+                transform: translate(-250px, 0);
+            }
+            to {
+                transform: translate(300px, 0);
+            }
+        }        
+    </style>
+
+    <defs>
+        <g id="mannikin">
+            <circle class="head" cx="0" cy="-50" r="30" fill="#F5E7D5" />
+            <circle class="eye" cx="-12" cy="-55" r="3" fill="black" />
+            <circle class="eye" cx="12" cy="-55" r="3" fill="black" />
+            <rect class="mouth" x="-10" y="-40" width="20" height="5" rx="2" fill="none" stroke="black" stroke-width="2px" />
+            <line class="limb" x1="-40" y1="-10" x2="40" y2="-10" stroke="#545454" stroke-width="35px" stroke-linecap="round" />
+            <line class="limb" x1="-25" y1="50" x2="0" y2="-15" stroke="#545454" stroke-width="35px" stroke-linecap="round" />
+            <line class="limb" x1="25" y1="50" x2="0" y2="-15" stroke="#545454" stroke-width="35px" stroke-linecap="round" />
+            <circle class="button" cx="0" cy="-10" r="5" fill="white" />
+            <circle class="button" cx="0" cy="10" r="5" fill="white" />
+        </g>
+        
+        <text id="n0" x="0" y="0">0</text>
+        <text id="n1" x="0" y="0">1</text>
+        <text id="n2" x="0" y="0">2</text>
+        <text id="n3" x="0" y="0">3</text>
+        <text id="n4" x="0" y="0">4</text>
+        <text id="n5" x="0" y="0">5</text>
+        <text id="n6" x="0" y="0">6</text>
+        <text id="n7" x="0" y="0">7</text>
+        <text id="n8" x="0" y="0">8</text>
+        <text id="n9" x="0" y="0">9</text>
+
+        <text id="banner" x="0" y="0" fill="white">Numbers merging on the number line</text>
+    </defs>
+
+    <rect x="-150" y="-100" width="300" height="200" fill="#29BAF4" />
+    <circle cx="0" cy="420" r="400" fill="#26F907" />
+    <rect x="-150" y="80" width="300" height="20" fill="black" />
+
+    <use href="#mannikin" x="-150" y="-50" transform="scale(0.5) skewY(150)" />
+    <use href="#mannikin" x="120" y="-30" transform="scale(0.5) skewY(30)" />
+
+    <use href="#n9" x="-140" y="-55" class ="numbr fast" />
+    <use href="#n9" x="-110" y="60" class ="numbr slow" />
+    <use href="#n6" x="-125" y="25" class ="numbr slow" />
+    <use href="#n1" x="40" y="25" class ="numbr slow" />
+    <use href="#n1" x="15" y="90" class ="numbr slow" />
+    <use href="#n9" x="-65" y="-80" class ="numbr fast" />
+    <use href="#n5" x="100" y="40" class ="numbr fast" />
+    <use href="#n3" x="0" y="90" class ="numbr fast transp" />
+    <use href="#n5" x="125" y="10" class ="numbr slow" />
+    <use href="#n1" x="45" y="-55" class ="numbr slow" />
+    <use href="#n6" x="-140" y="45" class ="numbr slow" />
+    <use href="#n5" x="75" y="20" class ="numbr slow" />
+    <use href="#n6" x="50" y="-45" class ="numbr slow transp" />
+    <use href="#n5" x="0" y="-70" class ="numbr fast transp" />
+    <use href="#n4" x="-5" y="-25" class ="numbr slow transp" />
+    <use href="#n3" x="-40" y="-5" class ="numbr slow" />
+    <use href="#n9" x="120" y="90" class ="numbr slow" />
+    <use href="#n3" x="-5" y="-40" class ="numbr slow" />
+    <use href="#n1" x="-115" y="-20" class ="numbr slow transp" />
+    <use href="#n7" x="-20" y="5" class ="numbr fast" />
+    <use href="#n7" x="-35" y="-40" class ="numbr slow" />
+    <use href="#n3" x="90" y="-15" class ="numbr slow transp" />
+    <use href="#n4" x="-55" y="-60" class ="numbr slow transp" />
+    <use href="#n7" x="50" y="25" class ="numbr slow" />
+    <use href="#n5" x="20" y="-45" class ="numbr slow" />
+    <use href="#n0" x="-100" y="-25" class ="numbr slow transp" />
+    <use href="#n8" x="140" y="-85" class ="numbr slow transp" />
+    <use href="#n5" x="85" y="65" class ="numbr fast" />
+    <use href="#n2" x="-85" y="80" class ="numbr slow" />
+    <use href="#n4" x="-10" y="-30" class ="numbr slow transp" />
+    <use href="#n5" x="-140" y="35" class ="numbr fast transp" />
+    <use href="#n7" x="75" y="-90" class ="numbr slow" />
+    <use href="#n3" x="110" y="-70" class ="numbr fast" />
+    <use href="#n5" x="95" y="-85" class ="numbr slow transp" />
+    <use href="#n4" x="95" y="-55" class ="numbr slow" />
+    <use href="#n5" x="-120" y="-30" class ="numbr slow" />
+    <use href="#n2" x="40" y="-30" class ="numbr fast" />
+    <use href="#n1" x="-90" y="-35" class ="numbr fast" />
+    <use href="#n0" x="15" y="-20" class ="numbr slow transp" />
+    <use href="#n4" x="-70" y="0" class ="numbr slow" />
+    
+    <use href="#banner" x="-140" y="95" class ="scroll" />
+
+</svg>

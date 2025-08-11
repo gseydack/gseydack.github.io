@@ -83,12 +83,12 @@
         <text id="banner" x="0" y="0" fill="white">The Number Line: numbers merging into continuity</text>
     </defs>
 
-    <rect x="-150" y="-100" width="300" height="200" fill="#29BAF4" />
-    <circle cx="0" cy="420" r="400" fill="#26F907" />
+    <rect x="-150" y="-100" width="300" height="200" fill="#B3B3B3" />
+    <circle cx="0" cy="420" r="400" fill="#C9C9C9" />
     <rect x="-150" y="80" width="300" height="20" fill="black" />
 
     <use href="#mannikin" x="-150" y="-50" transform="scale(0.5) skewY(150)" />
-    <use href="#mannikin" x="120" y="-30" transform="scale(0.5) skewY(30)" />
+    <use href="#mannikin" x="120" y="-30" transform="scale(0.4) skewY(30)" />
 
     <use href="#n9" x="-140" y="-55" class ="numbr fast" />
     <use href="#n9" x="-110" y="60" class ="numbr slow" />

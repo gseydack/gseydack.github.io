@@ -78,6 +78,19 @@
             <circle class="button" cx="0" cy="10" r="5" fill="white" />
         </g>
 
+        <g id="wimmin">
+            <circle class="head" cx="0" cy="-50" r="30" fill="floralwhite" />
+            <circle class="eye" cx="-12" cy="-55" r="3" fill="black" />
+            <circle class="eye" cx="12" cy="-55" r="3" fill="black" />
+            <rect class="mouth" x="-10" y="-40" width="20" height="5" rx="2" fill="none" stroke="black" stroke-width="2px" />
+            <line class="limb" x1="-40" y1="-10" x2="40" y2="-10" stroke="#545454" stroke-width="35px" stroke-linecap="round" />
+            <line class="limb" x1="-25" y1="50" x2="0" y2="-15" stroke="#545454" stroke-width="35px" stroke-linecap="round" />
+            <line class="limb" x1="25" y1="50" x2="0" y2="-15" stroke="#545454" stroke-width="35px" stroke-linecap="round" />
+            <circle cx="0" cy="35" r="35" fill="#545454" />
+            <circle class="button" cx="0" cy="-10" r="5" fill="white" />
+            <circle class="button" cx="0" cy="10" r="5" fill="white" />
+        </g>
+
         <g id="rabbit" transform="translate(-400 -120)">
             <path d="M723.041 444.1C725.841 440.6 726.941 436.4 727.681 431.532 726.282 427.053 723.816 422.835 720.267 419.287L695.699 443.855C701.241 453.8 716.249 452.59 723.041 444.1Z" fill="#F2F2F2"/>
             <path d="M551.801 279.86C545.906 283.773 538.96 286 531.62 286L529.975 286C529.676 286 529.383 286.018 529.095 286.052 527.016 286.3 524.397 289.597 523.674 292.367 523.074 294.667 523.441 298.634 523.661 299.215 528.304 311.447 539.092 320.658 552.295 322.946 561.574 321.8 568.774 309.97 568.774 301.267 568.775 292.34 562.108 279.666 551.801 279.86Z" fill="#D2D2D2"/>
@@ -120,7 +133,7 @@
 
     <use href="#wonder" x="-60" y="-50" transform="scale(1.5)" />
     <use href="#mannikin" x="-150" y="-50" transform="scale(0.5) skewY(150)" />
-    <use href="#mannikin" x="120" y="-30" transform="scale(0.4) skewY(30)" />
+    <use href="#wimmin" x="120" y="-30" transform="scale(0.4) skewY(30)" />
     <use href="#rabbit" x="600" y="100" transform="scale(0.15)" />
 
     <use href="#n9" x="-140" y="-55" class ="numbr fast" />

@@ -57,10 +57,10 @@
 
         @keyframes scrolling {
             from {
-                transform: translate(-350px, 0);
+                transform: translate(-350px, 0px);
             }
             to {
-                transform: translate(300px, 0);
+                transform: translate(300px, 0px);
             }
         }        
     </style>
@@ -124,7 +124,7 @@
         <text id="n9" x="0" y="0">9</text>
 
         <text id="wonder" x="0" y="0">W o n d e r l a n d</text>
-        <text id="banner" x="0" y="0" fill="white">The Number Line: numbers merging into continuity</text>
+        <text id="banner" x="0" y="0" fill="white">The Number Line: numbers mystically merging into a continuum</text>
     </defs>
 
     <rect x="-150" y="-100" width="300" height="200" fill="#B3B3B3" />
@@ -132,7 +132,7 @@
     <rect x="-150" y="80" width="300" height="20" fill="black" />
 
     <use href="#wonder" x="-60" y="-50" transform="scale(1.5)" />
-    <use href="#mannikin" x="-150" y="-50" transform="scale(0.5) skewY(150)" />
+    <use href="#mannikin" x="-150" y="-50" transform="scale(0.4) skewY(150)" />
     <use href="#wimmin" x="120" y="-30" transform="scale(0.4) skewY(30)" />
     <use href="#rabbit" x="600" y="100" transform="scale(0.15)" />
 

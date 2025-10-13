@@ -139,47 +139,47 @@
     <use href="#wimmin" x="120" y="-30" transform="scale(0.4) skewY(30)" />
     <use href="#rabbit" x="600" y="100" transform="scale(0.15)" />
 
-    <use href="#n9" x="-140" y="-55" class ="numbr fast" />
-    <use href="#n9" x="-110" y="60" class ="numbr slow" />
-    <use href="#n6" x="-125" y="25" class ="numbr slow" />
-    <use href="#n1" x="40" y="25" class ="numbr slow" />
-    <use href="#n1" x="15" y="90" class ="numbr slow" />
-    <use href="#n9" x="-65" y="-80" class ="numbr fast" />
-    <use href="#n5" x="100" y="40" class ="numbr fast" />
-    <use href="#n3" x="0" y="90" class ="numbr fast transp" />
-    <use href="#n5" x="125" y="10" class ="numbr slow" />
-    <use href="#n1" x="45" y="-55" class ="numbr slow" />
-    <use href="#n6" x="-140" y="45" class ="numbr slow" />
-    <use href="#n5" x="75" y="20" class ="numbr slow" />
-    <use href="#n6" x="50" y="-45" class ="numbr slow transp" />
-    <use href="#n5" x="0" y="-70" class ="numbr fast transp" />
-    <use href="#n4" x="-5" y="-25" class ="numbr slow transp" />
-    <use href="#n3" x="-40" y="-5" class ="numbr slow" />
-    <use href="#n9" x="120" y="90" class ="numbr slow" />
-    <use href="#n3" x="-5" y="-40" class ="numbr slow" />
-    <use href="#n1" x="-115" y="-20" class ="numbr slow transp" />
-    <use href="#n7" x="-20" y="5" class ="numbr fast" />
-    <use href="#n7" x="-35" y="-40" class ="numbr slow" />
-    <use href="#n3" x="90" y="-15" class ="numbr slow transp" />
-    <use href="#n4" x="-55" y="-60" class ="numbr slow transp" />
-    <use href="#n7" x="50" y="25" class ="numbr slow" />
-    <use href="#n5" x="20" y="-45" class ="numbr slow" />
-    <use href="#n0" x="-100" y="-25" class ="numbr slow transp" />
-    <use href="#n8" x="140" y="-85" class ="numbr slow transp" />
-    <use href="#n5" x="85" y="65" class ="numbr fast" />
-    <use href="#n2" x="-85" y="80" class ="numbr slow" />
-    <use href="#n4" x="-10" y="-30" class ="numbr slow transp" />
-    <use href="#n5" x="-140" y="35" class ="numbr fast transp" />
-    <use href="#n7" x="75" y="-90" class ="numbr slow" />
-    <use href="#n3" x="110" y="-70" class ="numbr fast" />
-    <use href="#n5" x="95" y="-85" class ="numbr slow transp" />
-    <use href="#n4" x="95" y="-55" class ="numbr slow" />
-    <use href="#n5" x="-120" y="-30" class ="numbr slow" />
-    <use href="#n2" x="40" y="-30" class ="numbr fast" />
-    <use href="#n1" x="-90" y="-35" class ="numbr fast" />
-    <use href="#n0" x="15" y="-20" class ="numbr slow transp" />
-    <use href="#n4" x="-70" y="0" class ="numbr slow" />
+    <use href="#n9" x="-140" y="-55" class="numbr fast" />
+    <use href="#n9" x="-110" y="60" class="numbr slow" />
+    <use href="#n6" x="-125" y="25" class="numbr slow" />
+    <use href="#n1" x="40" y="25" class="numbr slow" />
+    <use href="#n1" x="15" y="90" class="numbr slow" />
+    <use href="#n9" x="-65" y="-80" class="numbr fast" />
+    <use href="#n5" x="100" y="40" class="numbr fast" />
+    <use href="#n3" x="0" y="90" class="numbr fast transp" />
+    <use href="#n5" x="125" y="10" class="numbr slow" />
+    <use href="#n1" x="45" y="-55" class="numbr slow" />
+    <use href="#n6" x="-140" y="45" class="numbr slow" />
+    <use href="#n5" x="75" y="20" class="numbr slow" />
+    <use href="#n6" x="50" y="-45" class="numbr slow transp" />
+    <use href="#n5" x="0" y="-70" class="numbr fast transp" />
+    <use href="#n4" x="-5" y="-25" class="numbr slow transp" />
+    <use href="#n3" x="-40" y="-5" class="numbr slow" />
+    <use href="#n9" x="120" y="90" class="numbr slow" />
+    <use href="#n3" x="-5" y="-40" class="numbr slow" />
+    <use href="#n1" x="-115" y="-20" class="numbr slow transp" />
+    <use href="#n7" x="-20" y="5" class="numbr fast" />
+    <use href="#n7" x="-35" y="-40" class="numbr slow" />
+    <use href="#n3" x="90" y="-15" class="numbr slow transp" />
+    <use href="#n4" x="-55" y="-60" class="numbr slow transp" />
+    <use href="#n7" x="50" y="25" class="numbr slow" />
+    <use href="#n5" x="20" y="-45" class="numbr slow" />
+    <use href="#n0" x="-100" y="-25" class="numbr slow transp" />
+    <use href="#n8" x="140" y="-85" class="numbr slow transp" />
+    <use href="#n5" x="85" y="65" class="numbr fast" />
+    <use href="#n2" x="-85" y="80" class="numbr slow" />
+    <use href="#n4" x="-10" y="-30" class="numbr slow transp" />
+    <use href="#n5" x="-140" y="35" class="numbr fast transp" />
+    <use href="#n7" x="75" y="-90" class="numbr slow" />
+    <use href="#n3" x="110" y="-70" class="numbr fast" />
+    <use href="#n5" x="95" y="-85" class="numbr slow transp" />
+    <use href="#n4" x="95" y="-55" class="numbr slow" />
+    <use href="#n5" x="-120" y="-30" class="numbr slow" />
+    <use href="#n2" x="40" y="-30" class="numbr fast" />
+    <use href="#n1" x="-90" y="-35" class="numbr fast" />
+    <use href="#n0" x="15" y="-20" class="numbr slow transp" />
+    <use href="#n4" x="-70" y="0" class="numbr slow" />
     
-    <use href="#banner" x="-140" y="95" class ="scroll" />
+    <use href="#banner" x="-140" y="95" class="scroll" />
 
 </svg>

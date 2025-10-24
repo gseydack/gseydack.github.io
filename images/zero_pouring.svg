@@ -78,7 +78,7 @@
   </style>
 
   <defs>
-    <!-- Rabbit styling -->
+    <!-- Rabbit shading -->
     <radialGradient id="shadeBody" cx="10%" cy="70%" r="100%">
       <stop offset="0%" stop-color="white" />
       <stop offset="40%" stop-color="white" />
@@ -125,7 +125,7 @@
       <circle cx="0" cy="10" r="5" fill="white" />
     </g>
 
-    <g id="rabbit" transform="translate(0 0)">
+    <g id="rabbit" transform="translate(1100 200)" >
       <ellipse id="ear-r" rx="30" ry="180" cx="560" cy="220" fill="#dddddd" class="rabbit-stroke" transform="rotate(106 560 220)" />
       <ellipse id="tail" rx="35" ry="95" cx="595" cy="675" fill="#dddddd" class="rabbit-stroke" transform="rotate(70 595 675)" />
       <ellipse id="paw-r" rx="45" ry="90" cx="300" cy="680" fill="white" class="rabbit-stroke" transform="rotate(70 300 680)" />
@@ -161,7 +161,7 @@
   <use href="#wonder" x="-70" y="-50" transform="scale(1.5)" />
   <use href="#mannikin" x="-150" y="-50" transform="scale(0.4) skewY(150)" />
   <use href="#wimmin" x="120" y="-30" transform="scale(0.4) skewY(30)" />
-  <use href="#rabbit" x="1100" y="200" transform="scale(0.07)" />
+  <use href="#rabbit" x="150" y="-50" transform="scale(0.07)" />
 
   <use href="#n9" x="-140" y="-55" class="numbr fast" />
   <use href="#n9" x="-110" y="60" class="numbr slow" />

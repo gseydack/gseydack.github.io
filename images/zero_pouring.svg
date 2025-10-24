@@ -1,5 +1,4 @@
-<svg width="300" height="200" viewBox="-150 -100 300 200" xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden">
+<svg width="300" height="200" viewBox="-150 -100 300 200" xmlns="http://www.w3.org/2000/svg">
 
   <style>
     #n0,
@@ -79,6 +78,7 @@
   </style>
 
   <defs>
+    <!-- Rabbit styling -->
     <radialGradient id="shadeBody" cx="10%" cy="70%" r="100%">
       <stop offset="0%" stop-color="white" />
       <stop offset="40%" stop-color="white" />

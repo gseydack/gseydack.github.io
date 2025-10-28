@@ -60,7 +60,6 @@
       from {
         transform: translateY(-150px);
       }
-
       to {
         transform: translateY(200px);
       }
@@ -70,7 +69,6 @@
       from {
         transform: translate(-350px, 0px);
       }
-
       to {
         transform: translate(300px, 0px);
       }

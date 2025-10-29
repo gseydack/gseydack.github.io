@@ -1,0 +1,168 @@
+<svg width="410" height="46" style="background-color:lightblue" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" overflow="hidden">
+  <style>
+    rect {
+      stroke: black;
+    }
+    text{
+      font-size: 10px;
+      font-family: monospace;
+      fill: black;
+    }
+    .count {
+      animation-name: counting;
+      animation-duration: 24000ms;
+      animation-timing-function: step-start;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+    }
+    @keyframes counting {
+      0% {transform: translateY(42px);}
+      6% {transform: translateY(42px);}
+      12% {transform: translateY(27px);}
+      18% {transform: translateY(12px);}
+      24% {transform: translateY(-3px);}
+      30% {transform: translateY(-18px);}
+      36% {transform: translateY(-33px);}
+      42% {transform: translateY(-48px);}
+      48% {transform: translateY(-63px);}
+      54% {transform: translateY(-78px);}
+      60% {transform: translateY(-93px);}
+      67% {transform: translateY(-108px);}
+      74% {transform: translateY(-123px);}
+      81% {transform: translateY(-138px);}
+      88% {transform: translateY(-153px);}
+      94% {transform: translateY(-168px);}
+      100% {transform: translateY(-183px);}
+    }
+  </style>
+  <defs>
+    <g id="header">
+      <rect width="410" height="16" x="0" y="0" fill="white" />
+      <text x="2" y="12" style="font-size:12px; font-weight:bold;">HOW ZERO ACTS AS A PSEUDO NUMBER AND ORDER CONSTRUCTOR</text>
+    </g>
+    <g id="row1">
+      <g id="rowmask">
+        <rect width="410" height="15" x="0" y="0" fill="white" />
+        <rect width="100" height="15" x="0" y="0" fill="none" />
+        <rect width="11" height="15" x="100" y="0" fill="none" />
+        <rect width="11" height="15" x="111" y="0" fill="none" />
+        <rect width="11" height="15" x="122" y="0" fill="none" />
+        <rect width="11" height="15" x="133" y="0" fill="none" />
+        <rect width="110" height="15" x="144" y="0" fill="none" />
+        <rect width="11" height="15" x="254" y="0" fill="none" />
+        <rect width="11" height="15" x="265" y="0" fill="none" />
+        <rect width="11" height="15" x="276" y="0" fill="none" />
+        <rect width="11" height="15" x="287" y="0" fill="none" />
+        <rect width="112" height="15" x="298" y="0" fill="none" />
+      </g>
+      <g transform="translate(0 11)">
+        <text x="2" y="0" >Bit number</text>
+        <text x="103" y="0" >3</text>
+        <text x="113" y="0" >2</text>
+        <text x="124" y="0" >1</text>
+        <text x="135" y="0" >0</text>
+        <text x="146" y="0" >Decimal multiplier</text>
+        <text x="256" y="0" >8</text>
+        <text x="267" y="0" >4</text>
+        <text x="278" y="0" >2</text>
+        <text x="289" y="0" >1</text>
+        <text x="301" y="0" >2^[bit number]</text>      
+      </g>
+    </g>
+    <g id="row2">
+      <use href="#rowmask" />
+      <g transform="translate(0 11)">
+      <text x="2" y="0" >Bit binary values</text>
+      <text x="146" y="0" >Bit decimal values</text>
+      <text x="301" y="0" >Nibble count =</text>
+      </g>
+    </g>
+    <g id="nrlist">
+      <g id="00" transform="translate(0 0)">
+        <text x="103" y="0" >0 0 0 0</text>
+        <text x="256" y="0" >0 0 0 0</text>
+        <text x="381" y="0" >00</text>   
+      </g>
+      <g id="01" transform="translate(0 15)">
+        <text x="103" y="0" >0 0 0 1</text>
+        <text x="256" y="0" >0 0 0 1</text>
+        <text x="381" y="0" >01</text>
+      </g>
+      <g id="02" transform="translate(0 30)">
+        <text x="103" y="0" >0 0 1 0</text>
+        <text x="256" y="0" >0 0 2 0</text>
+        <text x="381" y="0" >02</text>        
+      </g>
+      <g id="03" transform="translate(0 45)">
+        <text x="103" y="0" >0 0 1 1</text>
+        <text x="256" y="0" >0 0 2 1</text>
+        <text x="381" y="0" >03</text>        
+      </g>
+      <g id="04" transform="translate(0 60)">
+        <text x="103" y="0" >0 1 0 0</text>
+        <text x="256" y="0" >0 4 0 0</text>
+        <text x="381" y="0" >04</text>        
+      </g>
+      <g id="05" transform="translate(0 75)">
+        <text x="103" y="0" >0 1 0 1</text>
+        <text x="256" y="0" >0 4 0 1</text>
+        <text x="381" y="0" >05</text>        
+      </g>
+      <g id="06" transform="translate(0 90)">
+        <text x="103" y="0" >0 1 1 0</text>
+        <text x="256" y="0" >0 4 2 0</text>
+        <text x="381" y="0" >06</text>        
+      </g>
+      <g id="07" transform="translate(0 105)">
+        <text x="103" y="0" >0 1 1 1</text>
+        <text x="256" y="0" >0 4 2 1</text>
+        <text x="381" y="0" >07</text>        
+      </g>
+      <g id="08" transform="translate(0 120)">
+        <text x="103" y="0" >1 0 0 0</text>
+        <text x="256" y="0" >8 0 0 0</text>
+        <text x="381" y="0" >08</text>        
+      </g>
+      <g id="09" transform="translate(0 135)">
+        <text x="103" y="0" >1 0 0 1</text>
+        <text x="256" y="0" >8 0 0 1</text>
+        <text x="381" y="0" >09</text>        
+      </g>
+      <g id="10" transform="translate(0 150)">
+        <text x="103" y="0" >1 0 1 0</text>
+        <text x="256" y="0" >8 0 2 0</text>
+        <text x="381" y="0" >10</text>        
+      </g>
+      <g id="11" transform="translate(0 165)">
+        <text x="103" y="0" >1 0 1 1</text>
+        <text x="256" y="0" >8 0 2 1</text>
+        <text x="381" y="0" >11</text>        
+      </g>
+      <g id="12" transform="translate(0 180)">
+        <text x="103" y="0" >1 1 0 0</text>
+        <text x="256" y="0" >8 4 0 0</text>
+        <text x="381" y="0" >12</text>        
+      </g>
+      <g id="13" transform="translate(0 195)">
+        <text x="103" y="0" >1 1 0 1</text>
+        <text x="256" y="0" >8 4 0 1</text>
+        <text x="381" y="0" >13</text>        
+      </g>
+      <g id="14" transform="translate(0 210)">
+        <text x="103" y="0" >1 1 1 0</text>
+        <text x="256" y="0" >8 4 2 0</text>
+        <text x="381" y="0" >14</text>        
+      </g>
+      <g id="15" transform="translate(0 225)">
+        <text x="103" y="0" >1 1 1 1</text>
+        <text x="256" y="0" >8 4 2 1</text>
+        <text x="381" y="0" >15</text>        
+      </g>
+    </g>
+  </defs>
+  <use href="#row2" x="0" y="31" />
+  <use href="#nrlist" class="count" />
+  <use href="#header" />
+  <use href="#row1" x="0" y="16" />
+</svg>

@@ -1,22 +1,20 @@
-<svg viewBox="0 0 200 100" class="backdrop" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" overflow="hidden">
+  <desc>Created: Günter Anton Seydack, 2025</desc>
   <style>
-    .backdrop {
-      background-color: lightblue;
-    }
     .animestrip {
       animation: putstrip 8s step-end infinite;
     }
     @keyframes putstrip {
-      0% {transform: translateY(20px);}
-      25% {transform: translateY(-100px);}
-      100% {transform: translateY(-100px);}
+      0% {fill-opacity: 1;}
+      25% {fill-opacity: 0;}
+      100% {fill-opacity: 0;}
     }
     .animecube {
       animation: putcube 8s step-end infinite;
     }
     @keyframes putcube {
       0% {transform: translateY(-100px);}
-      25% {transform: translateY(20px);}
+      25% {transform: translateY(0px);}
       50% {transform: translateY(-100px);}
       100% {transform: translateY(-100px);}
     }
@@ -24,9 +22,9 @@
       animation: putball 8s step-end infinite;
     }
     @keyframes putball {
-      0% {transform: translateY(-100px);}
-      50% {transform: translateY(20px);}
-      100% {transform: translateY(-100px);}
+      0% {fill-opacity: 0;}
+      50% {fill-opacity: 1;}
+      100% {fill-opacity: 1;}
     }
   </style>
   <defs>    
@@ -40,7 +38,7 @@
       <stop offset="60%" stop-color="lightgray" />
       <stop offset="100%" stop-color="gray" />
     </radialGradient>
-    <g id="strip2cube" class="animestrip">
+    <g id="strip2cube">
       <polygon points="0,0 20,20 20,30 0,10" fill="#A7B9D2">
         <animate attributeName="points" to="0,0 20,20 20,60 0,40" dur="2s" repeatCount="indefinite" />
       </polygon>
@@ -51,7 +49,7 @@
         <animate attributeName="points" to="20,20 20,60 60,60 60,20" dur="2s" repeatCount="indefinite" />
       </polygon>
     </g>
-    <g id="cube2ball" class="animecube">
+    <g id="cube2ball">
       <g mask="url(#cubemask)">
         <polygon points="0,0 20,20 20,60 0,40" fill="#A7B9D2" />
         <polygon points="0,0 20,20 60,20 40,0" fill="#C4D0E0" />
@@ -67,7 +65,7 @@
       <animate attributeName="cx" from="30" to="60" dur="4s" repeatCount="indefinite" />
     </circle>
   </defs>
-  <use href="#strip2cube" />
-  <use href="#cube2ball" />
-  <use href="#ball" class="animeball" />
+  <use href="#strip2cube" x="0" y="20" class="animestrip" />
+  <use href="#cube2ball" x="0" y="20" class="animecube" />
+  <use href="#ball" x="0" y="20" class="animeball" />
 </svg>

@@ -1,5 +1,10 @@
 <svg viewBox="-50 -50 100 100" class="backdrop" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" overflow="hidden" >
-  <desc>Created: Günter Anton Seydack, 2025</desc>
+  <metadata>
+    <title>Infinite Radix Expansion</title>
+    <desc>Animation of creating a radix expansion in the complete infinite</desc>
+    <author>Günter Anton Seydack</author>
+    <date>2025</date>
+  </metadata>  
   <style>
     text {
       font-family: 'Courier New', Courier, monospace;

@@ -1,5 +1,10 @@
 <svg viewBox="-150 -100 300 200" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" overflow="hidden">
-  <desc>Created: Günter Anton Seydack, 2025</desc>
+  <metadata>
+    <title>Numbershower in Wonderland</title>
+    <desc>Animation of numbers pouring down in Wonderland</desc>
+    <author>Günter Anton Seydack</author>
+    <date>2025</date>
+  </metadata>
   <style>
     #n0,
     #n1,

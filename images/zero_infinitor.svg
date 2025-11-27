@@ -1,5 +1,10 @@
 <svg viewBox="0 0 300 54" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" overflow="hidden">
-  <desc>Created: Günter Anton Seydack, 2025</desc>
+  <metadata>
+    <title>Infinitor</title>
+    <desc>Animation of creating an infinite expansion fading into infinity</desc>
+    <author>Günter Anton Seydack</author>
+    <date>2025</date>
+  </metadata>
   <style>
     text{
       font-family: 'Courier New', Courier, monospace

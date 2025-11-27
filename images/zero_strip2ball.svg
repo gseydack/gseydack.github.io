@@ -1,5 +1,10 @@
 <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" overflow="hidden">
-  <desc>Created: Günter Anton Seydack, 2025</desc>
+  <metadata>
+    <title>Strip-to-ball Morph</title>
+    <desc>Animation of a paper strip morphing into a paper ball</desc>
+    <author>Günter Anton Seydack</author>
+    <date>2025</date>
+  </metadata>
   <style>
     .animestrip {
       animation: putstrip 8s step-end infinite;

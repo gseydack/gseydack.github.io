@@ -1,0 +1,18 @@
+<svg x="0" y="0" viewBox="0 0 170 110" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" overflow="hidden" >
+  <metadata>
+    <title>Golden Ratio</title>
+    <desc>Image depicting the golden ratio</desc>
+    <author>Günter Anton Seydack</author>
+    <date>2025</date>
+  </metadata>
+  <defs>
+    <g id="ratio">
+      <rect width="100" height="100" x="0" y="0" fill="white" stroke="black" />
+      <rect width="62" height="100" x="100" y="0" fill="white" stroke="black" />    
+    </g>
+
+  </defs>
+  <use xlink:href="#ratio" stroke-width="2" x="5" y="5" />
+  <use xlink:href="#ratio" transform="translate(166.5 5) rotate(90 0 0) scale(0.61 0.61)" />
+  <use xlink:href="#ratio" transform="rotate(180 160 50) translate(154 -3.5) scale(0.37 0.37)" />
+</svg>

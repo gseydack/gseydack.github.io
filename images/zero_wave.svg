@@ -1,0 +1,62 @@
+<svg width="282" height="80" xmlns="http://www.w3.org/2000/svg" class="backdrop">
+  <metadata>
+    <title>Circle into Wave Animation</title>
+    <desc></desc>
+    <author>Günter Anton Seydack</author>
+    <date>2026</date>
+  </metadata>
+  <style>
+    .backdrop {
+      background-color: lightblue;      
+    }
+    .beampath {
+        offset-path: path("M 160 0 A 30 30 0 0 0 100 0 A 30 30 0 0 0 160 0");
+        offset-rotate: 0deg;
+        animation: rotateBeam 4s linear infinite;
+    }
+    @keyframes rotateBeam {
+        0% {offset-distance: 0%;}
+        100% {offset-distance: 100%;}
+    }
+    .wavex {
+      animation: shiftwave 8s linear infinite;
+    }
+    @keyframes shiftwave {
+      0% {transform: translateX(-120px);}
+      100% {transform: translateX(80px);}
+    }
+  </style>
+  <defs>
+    <clipPath id="beamview">
+      <rect x="0" y="0" width="80" height="80" />
+    </clipPath>    
+    <clipPath id="waveview">
+      <rect width="202" height="80" x="80" y="0" />      
+    </clipPath>
+    <path id="wave" d="
+      M 0 40
+      Q 25 100, 50 40
+      T 100 40
+      T 150 40
+      T 200 40"
+      fill="none" stroke="blue" stroke-width="3" />
+  </defs>
+  <!-- Action -->
+  <path transform="translate(10 40)" d="
+    M 60 0 A 30 30 0 0 0 0 0 A 30 30 0 0 0 60 0"
+    fill="none"
+    stroke="white" />
+  <g clip-path="url(#beamview)">
+    <g transform="translate(-90 40)" class="beampath">
+      <circle r="3" fill="red" />
+      <line x1="0" x2="70" y1="0" y2="0" stroke="red" stroke-width="3" />    
+    </g>    
+  </g>
+  <g id="makewaves" clip-path="url(#waveview)">
+    <line x1="80" x2="282" y1="10" y2="10" stroke="blue" stroke-width="1" />
+    <line x1="80" x2="282" y1="40" y2="40" stroke="blue" stroke-width="1" />
+    <line x1="80" x2="282" y1="70" y2="70" stroke="blue" stroke-width="1" />
+    <use href="#wave" transform="translate(-120 0)" class="wavex" />
+  </g>
+  <line x1="80" x2="80" y1="0" y2="80" stroke="blue" stroke-width="3" />
+</svg>
